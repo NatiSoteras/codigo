@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase2</title>
+</head>
+<!-- ctrl+k+c para cometar todo-->
+<!--Si no te lo tabula solo y esta desordenada, podes apretar alt + shift + f y te lo ordena-->
+<!-- Alt+z para no scrollear-->
+<!-- puedo multiplicar las etuiquetas para que se creen muchas a ala vez poniendo * y la cant de veces que quiero repetirla-->
+<!-- ../ para encontrar la ruta-->
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>  
+            </li>
+            <li>
+                <a href="pages/servicios.html"> Servicios</a>
+            </li> 
+            <a href="pages/servicios.html"> Servicios</a>           
+           
+        </ul>
+    
+    
+    </nav>
+
+</header>
+
+
+
+
+    <!-- enlace absoluto nos lleva a otra pagina -- si agrego target="_blank" desp de la url se abre en otra pestaño nueva-->
+    <a href="https://www.google.com" target="_blank">Ver mas</a>
+
+    <!--enlace relativo - lleva a otra parte dentro de nuestro mismo proyecto-->
+    <a href="pages/servicios.html"> Servicios</a>
+
+    <!--enlace interno - redirecciona al usuario a otra seccion dentro de este mismo archivo  en el enlace hay que poner como "direccion" # y el mismo nombre que puse en el id de la seccion-->
+    <a href="#planes">
+        Inscribirme  
+    </a>
+
+    <p>Estos son los planes disponibles
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quam? Explicabo, ut provident magni numquam reprehenderit possimus accusamus voluptate labore tenetur natus doloremque perferendis aliquid quod adipisci vero enim ducimus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptas commodi corrupti atque ut, repellendus, tempora animi exercitationem officia ratione iste ipsam at omnis esse ipsa nihil officiis voluptate asperiores?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident voluptatum est placeat a velit tenetur ipsa dicta officia soluta incidunt nam, quod molestiae qui odio, accusantium tempore aut cum?
+    </p> 
+    <!-- Tengo que darle un identificador unico ID= un atributo que se puede usar en todas las etiquetas lo tengo que escribir adentro del > de cierre del section que abre-->
+    <section id="planes"> 
+        <h2>Planes:</h2>
+        <p>Estos son los planes disponibles
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quam? Explicabo, ut provident magni numquam reprehenderit possimus accusamus voluptate labore tenetur natus doloremque perferendis aliquid quod adipisci vero enim ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptas commodi corrupti atque ut, repellendus, tempora animi exercitationem officia ratione iste ipsam at omnis esse ipsa nihil officiis voluptate asperiores?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident voluptatum est placeat a velit tenetur ipsa dicta officia soluta incidunt nam, quod molestiae qui odio, accusantium tempore aut cum?
+        </p>
+    </section>
+
+    <!-- Enlaces relaternos / redirecciona al usuario a otro archivo dentro de mi proyecto y a una seccion especifica dentro de ese archivo -->
+
+
+    <!--Imagenes
+    atributo img - tiene dos partes
+    1. src - source, donde esta la imagen que queres mostrar
+    2. alt= texto alternativo=descripcion del elemento multimedia 
+    tiene dos funciones: 
+        2a es que si la ruta donde esta la imagen se rompe, el navegadro va a mostrar ese texto, para que el usuario sepa que deberia haber ido alli
+        2b posicionamiento de la imagen, cuando el usuario busca por imagenes en el navegador, si las palabras coinciden con el texto de alt se lo muestra primero
+        2c Accesibilidad es para el sistema de apoyo, que lee la descripcion de la imagen para personas que usan esos sistemas-->
+    <img src="imagenes/logo -para site.jpg" alt="Logo Somos Danza">
+
+    <!-- mapa voy a google maps busco el lugar, y hago click en compartir, incorporar un mapa, copiar html
+    iframe= nos da un extracto del codgigo html de oro sitio
+    lo mismo puedo hacer con videos de youtube, con spotify, compartir/ insertar copiar html
+    -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8171378706866!2d-64.49623048485188!3d-31.419163881403204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0xc1c854b4a8915de6!2sTeatro%20del%20Lago!5e0!3m2!1ses-419!2sar!4v1679010307335!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- audios - puedo insertar los que tenga en mi computadora poniendo la etiqueta audio-->
+   <!-- videos - puedo insertar los que tenga en mi computadora poniendo la etiqueta video-->
+
+
+
+</body>
+
+</html>
